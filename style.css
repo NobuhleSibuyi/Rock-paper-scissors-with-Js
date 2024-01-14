@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #43022c;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #91bdba; */
+    background: url('images/rps\ bckgrnd.png');
+    background-repeat: no-repeat; /* Optional: set the repeat behavior */
+    background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,44 +18,33 @@ body {
 }
 
 .container h1 {
-    margin-bottom: 60px;
+   margin-bottom: 60px;
    font-style: italic;
    font-size: 60px;
-    color: #98576b;
+   color: #0a635d;
 }
 
 #rules {
-    margin-bottom: 30px;
-    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+    color: black;
     border: 1px dotted #98576b;
 }
 
 #rules h2 {
-    color: #e6ace0;
+    color: black;
 }
 
 #rules p {
     font-size: 20px;
-    margin-bottom: 5px;
-}
-
-strong::before {
-    background-color: #460e32;
-    content: "";
-    position: absolute;
-    width: calc(100% + 4px);
-    height: 80%;
-    left: -2px;
-    bottom: 0;
-    z-index: -1;
-    transform: rotate(-2deg);
+    margin: 2px 0 4px 0;
 }
 
 #choose p {
-    margin-bottom: 30px;
-    color: #e6ace0;
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    margin-bottom: 25px;
+    color: rgb(3, 192, 192);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
     font-style: italic;
 }
 
@@ -63,17 +57,23 @@ button {
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
+    background-color: #0a635d;
+    border-radius: 5px;
+    color: #fff;
 }
 
 button:hover {
-    background-color: #e6ace0;
-    border-radius: 6px;
+    background-color: #639c99;
+    border-radius: 3px;
+    color: black;
 }
 
 #result {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
     border: 1px dotted #98576b;
-    color: #98576b;
+    color: #8b485c; 
+    font: 'roboto';
 }
+

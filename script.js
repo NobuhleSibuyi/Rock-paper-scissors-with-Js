@@ -37,4 +37,6 @@ function displayResult(user, computer, result) {
         <p>Computer's choice: ${computer}</p>
         <p>${result}</p>
     `;
+    
 }
+
